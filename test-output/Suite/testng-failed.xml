@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="auditIFCTest.AuditeeCriticaltestcases">
+        <methods>
+          <include name="PreRequisiteSubmitted1"/>
+          <include name="OpenAuditStepPerform1"/>
+          <include name="PreRequisiteRejected1"/>
+          <include name="setBrowser"/>
+          <include name="PreRequisiteOpen1"/>
+          <include name="OpenAuditStepUserCreated1"/>
+          <include name="CommentsAudit1"/>
+          <include name="OpenAuditSubmitted11"/>
+          <include name="Login"/>
+          <include name="ImplementedAudit1"/>
+          <include name="browserClosing"/>
+          <include name="SubmittedAudit1"/>
+          <include name="OverdueAudit1"/>
+        </methods>
+      </class> <!-- auditIFCTest.AuditeeCriticaltestcases -->
+      <class name="auditIFCTest.Audittestcases">
+        <methods>
+          <include name="PrerequisiteSubmittedAuditFilter1"/>
+          <include name="ImplementationOpenUpcomingFilter1"/>
+          <include name="SubmittedAudit1"/>
+          <include name="UpcomingAudit1"/>
+          <include name="OpenAuditStepUserCreated1"/>
+          <include name="CommentsAudit1"/>
+          <include name="PreRequisiteOpen1"/>
+          <include name="Login"/>
+          <include name="ImplementationOpenOverdueFilter"/>
+          <include name="OverdueAudit1"/>
+          <include name="ImplementationImplementedtFilter1"/>
+          <include name="PrerequisiteRejectedAuditFilter1"/>
+          <include name="browserClosing"/>
+          <include name="MyWorkspaceAuditFilter1"/>
+          <include name="ImplementationSubmittedForReviewSubmitFilter1"/>
+          <include name="ImplementedAudit1"/>
+          <include name="ImplementationCommentsForReviewSubmitFilter1"/>
+          <include name="PreRequisiteRejected1"/>
+          <include name="setBrowser"/>
+          <include name="PreRequisiteSubmitted1"/>
+          <include name="OpenAuditSubmitted11"/>
+          <include name="PrerequisiteOpenAuditFilter1"/>
+          <include name="OpenAuditStepPerform1"/>
+        </methods>
+      </class> <!-- auditIFCTest.Audittestcases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

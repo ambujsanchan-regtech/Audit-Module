@@ -1,25 +1,1080 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="30" passed="18" failed="12" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-03T16:27:02 IST" name="Default suite" finished-at="2023-02-03T16:29:59 IST" duration-ms="177097">
+  <suite started-at="2025-07-03T09:51:54 IST" name="Default suite" finished-at="2025-07-03T10:50:22 IST" duration-ms="3508155">
     <groups>
     </groups>
-    <test started-at="2023-02-03T16:27:02 IST" name="Default test" finished-at="2023-02-03T16:29:59 IST" duration-ms="177097">
-      <class name="newauditproject.audittestcount">
-        <test-method is-config="true" signature="Login1()[pri:0, instance:newauditproject.audittestcount@4b45a2f5]" started-at="2023-02-03T16:27:02 IST" name="Login1" finished-at="2023-02-03T16:27:38 IST" duration-ms="35374" status="PASS">
+    <test started-at="2025-07-03T09:51:54 IST" name="Default test" finished-at="2025-07-03T10:50:22 IST" duration-ms="3508155">
+      <class name="auditIFCTest.AuditHeadCriticalCases">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:51:54 IST" name="setBrowser" finished-at="2025-07-03T09:51:56 IST" duration-ms="1856" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login1 -->
-        <test-method signature="riskcategory()[pri:5, instance:newauditproject.audittestcount@4b45a2f5]" started-at="2023-02-03T16:27:38 IST" name="riskcategory" finished-at="2023-02-03T16:28:28 IST" duration-ms="50227" status="PASS">
+        </test-method> <!-- setBrowser -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:51:56 IST" name="Login" finished-at="2025-07-03T09:52:15 IST" duration-ms="18972" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- riskcategory -->
-        <test-method signature="observation()[pri:6, instance:newauditproject.audittestcount@4b45a2f5]" started-at="2023-02-03T16:28:28 IST" name="observation" finished-at="2023-02-03T16:29:59 IST" duration-ms="91395" status="PASS">
+        </test-method> <!-- Login -->
+        <test-method signature="HighOpen()[pri:1, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:52:15 IST" name="HighOpen" finished-at="2025-07-03T09:53:52 IST" duration-ms="96320" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- observation -->
-      </class> <!-- newauditproject.audittestcount -->
+        </test-method> <!-- HighOpen -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:53:52 IST" name="browserClosing" finished-at="2025-07-03T09:53:57 IST" duration-ms="5677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:53:57 IST" name="Login" finished-at="2025-07-03T09:54:12 IST" duration-ms="14835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="MediumOpen()[pri:2, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:54:12 IST" name="MediumOpen" finished-at="2025-07-03T09:55:48 IST" duration-ms="95924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MediumOpen -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:55:48 IST" name="browserClosing" finished-at="2025-07-03T09:55:54 IST" duration-ms="5694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:55:54 IST" name="Login" finished-at="2025-07-03T09:56:17 IST" duration-ms="23364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="LowOpen()[pri:3, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:56:17 IST" name="LowOpen" finished-at="2025-07-03T09:57:11 IST" duration-ms="54288" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (1185, -70)
+  (Session info: chrome=137.0.7151.104)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2084134ad45d350c1daf06d351de64ed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1185, -70)
+  (Session info: chrome=137.0.7151.104)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2084134ad45d350c1daf06d351de64ed
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at aRSAuditHead.AuditHeadMethodARS.LowRisk(AuditHeadMethodARS.java:5078)
+at auditIFCTest.AuditHeadCriticalCases.LowOpen(AuditHeadCriticalCases.java:129)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LowOpen -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:57:11 IST" name="browserClosing" finished-at="2025-07-03T09:57:17 IST" duration-ms="5360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:57:17 IST" name="Login" finished-at="2025-07-03T09:57:28 IST" duration-ms="11269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="HighClose()[pri:5, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:57:28 IST" name="HighClose" finished-at="2025-07-03T09:59:05 IST" duration-ms="97093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HighClose -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:59:05 IST" name="browserClosing" finished-at="2025-07-03T09:59:11 IST" duration-ms="5729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:59:11 IST" name="Login" finished-at="2025-07-03T09:59:26 IST" duration-ms="14562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="MediumClose()[pri:6, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T09:59:26 IST" name="MediumClose" finished-at="2025-07-03T10:01:08 IST" duration-ms="102509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MediumClose -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:01:08 IST" name="browserClosing" finished-at="2025-07-03T10:01:14 IST" duration-ms="5750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:01:14 IST" name="Login" finished-at="2025-07-03T10:01:30 IST" duration-ms="15908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="LowClose()[pri:7, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:01:30 IST" name="LowClose" finished-at="2025-07-03T10:03:00 IST" duration-ms="89917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LowClose -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:03:00 IST" name="browserClosing" finished-at="2025-07-03T10:03:05 IST" duration-ms="5631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:03:05 IST" name="Login" finished-at="2025-07-03T10:03:26 IST" duration-ms="21039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="CategoryOpen()[pri:8, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:03:26 IST" name="CategoryOpen" finished-at="2025-07-03T10:03:31 IST" duration-ms="4578" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "driver" is null
+at aRSAuditHead.AuditHeadArsLocator.ProcessInefficiencyOpen(AuditHeadArsLocator.java:5068)
+at aRSAuditHead.AuditHeadMethodARS.CategoryOpen1(AuditHeadMethodARS.java:6758)
+at auditIFCTest.AuditHeadCriticalCases.CategoryOpen(AuditHeadCriticalCases.java:186)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CategoryOpen -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:03:31 IST" name="browserClosing" finished-at="2025-07-03T10:03:37 IST" duration-ms="5669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:03:37 IST" name="Login" finished-at="2025-07-03T10:03:54 IST" duration-ms="17169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="CategoryClose()[pri:9, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:03:54 IST" name="CategoryClose" finished-at="2025-07-03T10:04:24 IST" duration-ms="30082" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 1 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+at java.base/java.util.Objects.checkIndex(Objects.java:361)
+at java.base/java.util.ArrayList.get(ArrayList.java:427)
+at aRSAuditHead.AuditHeadMethodARS.CategoryClose(AuditHeadMethodARS.java:6812)
+at auditIFCTest.AuditHeadCriticalCases.CategoryClose(AuditHeadCriticalCases.java:197)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CategoryClose -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:04:24 IST" name="browserClosing" finished-at="2025-07-03T10:04:30 IST" duration-ms="5878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:04:30 IST" name="Login" finished-at="2025-07-03T10:04:47 IST" duration-ms="17581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="ProcessHigh()[pri:10, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:04:47 IST" name="ProcessHigh" finished-at="2025-07-03T10:05:07 IST" duration-ms="19569" status="FAIL">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: ""]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: ""
+at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+at java.base/java.lang.Integer.parseInt(Integer.java:678)
+at java.base/java.lang.Integer.parseInt(Integer.java:786)
+at aRSAuditHead.AuditHeadMethodARS.ProcessHigh(AuditHeadMethodARS.java:5379)
+at auditIFCTest.AuditHeadCriticalCases.ProcessHigh(AuditHeadCriticalCases.java:209)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcessHigh -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:05:07 IST" name="browserClosing" finished-at="2025-07-03T10:05:13 IST" duration-ms="5766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:05:13 IST" name="Login" finished-at="2025-07-03T10:05:30 IST" duration-ms="17187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="ProcessMedium()[pri:11, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:05:30 IST" name="ProcessMedium" finished-at="2025-07-03T10:05:47 IST" duration-ms="16765" status="FAIL">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: ""]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: ""
+at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+at java.base/java.lang.Integer.parseInt(Integer.java:678)
+at java.base/java.lang.Integer.parseInt(Integer.java:786)
+at aRSAuditHead.AuditHeadMethodARS.ProcessMedium(AuditHeadMethodARS.java:5435)
+at auditIFCTest.AuditHeadCriticalCases.ProcessMedium(AuditHeadCriticalCases.java:222)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcessMedium -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:05:47 IST" name="browserClosing" finished-at="2025-07-03T10:05:52 IST" duration-ms="5689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:05:52 IST" name="Login" finished-at="2025-07-03T10:06:12 IST" duration-ms="19319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="ProcessLow()[pri:12, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:06:12 IST" name="ProcessLow" finished-at="2025-07-03T10:10:36 IST" duration-ms="264355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcessLow -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:10:36 IST" name="browserClosing" finished-at="2025-07-03T10:10:42 IST" duration-ms="5711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:10:42 IST" name="Login" finished-at="2025-07-03T10:10:57 IST" duration-ms="15429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AgingGreaterthan1Year()[pri:14, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:10:57 IST" name="AgingGreaterthan1Year" finished-at="2025-07-03T10:12:57 IST" duration-ms="119660" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='dvbtnAudit']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fbea7a2c6937ef7e0311bc1fbfdcde8
+*** Element info: {Using=xpath, value=//div[@id='dvbtnAudit']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='dvbtnAudit']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fbea7a2c6937ef7e0311bc1fbfdcde8
+*** Element info: {Using=xpath, value=//div[@id='dvbtnAudit']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at aRSAuditHead.AuditHeadArsLocator.ARS(AuditHeadArsLocator.java:586)
+at aRSAuditHead.AuditHeadArsMethod.AgingGreater90(AuditHeadArsMethod.java:7142)
+at aRSAuditHead.AuditHeadMethodARS.AgingGreaterthan1Year(AuditHeadMethodARS.java:7183)
+at auditIFCTest.AuditHeadCriticalCases.AgingGreaterthan1Year(AuditHeadCriticalCases.java:268)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgingGreaterthan1Year -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:12:57 IST" name="browserClosing" finished-at="2025-07-03T10:13:03 IST" duration-ms="5806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:13:03 IST" name="Login" finished-at="2025-07-03T10:13:19 IST" duration-ms="16642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AuditCommitteeOpen()[pri:15, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:13:19 IST" name="AuditCommitteeOpen" finished-at="2025-07-03T10:15:01 IST" duration-ms="101900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuditCommitteeOpen -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:15:01 IST" name="browserClosing" finished-at="2025-07-03T10:15:07 IST" duration-ms="5806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:15:07 IST" name="Login" finished-at="2025-07-03T10:15:24 IST" duration-ms="16818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AuditCommitteeClose()[pri:16, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:15:24 IST" name="AuditCommitteeClose" finished-at="2025-07-03T10:17:08 IST" duration-ms="103933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuditCommitteeClose -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:17:08 IST" name="browserClosing" finished-at="2025-07-03T10:17:13 IST" duration-ms="5630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:17:13 IST" name="Login" finished-at="2025-07-03T10:17:31 IST" duration-ms="17526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AuditTrackerPlanned()[pri:17, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:17:31 IST" name="AuditTrackerPlanned" finished-at="2025-07-03T10:18:40 IST" duration-ms="69433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuditTrackerPlanned -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:18:40 IST" name="browserClosing" finished-at="2025-07-03T10:18:46 IST" duration-ms="5705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:18:46 IST" name="Login" finished-at="2025-07-03T10:19:03 IST" duration-ms="17145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AuditTrackerActual()[pri:18, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:19:03 IST" name="AuditTrackerActual" finished-at="2025-07-03T10:20:14 IST" duration-ms="70816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuditTrackerActual -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:20:14 IST" name="browserClosing" finished-at="2025-07-03T10:20:20 IST" duration-ms="5826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:20:20 IST" name="Login" finished-at="2025-07-03T10:20:45 IST" duration-ms="25065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AuditStatus()[pri:19, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:20:45 IST" name="AuditStatus" finished-at="2025-07-03T10:22:05 IST" duration-ms="79695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuditStatus -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:22:05 IST" name="browserClosing" finished-at="2025-07-03T10:22:10 IST" duration-ms="5712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:22:10 IST" name="Login" finished-at="2025-07-03T10:22:30 IST" duration-ms="19290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AuditHeadSummaryOpenAudits()[pri:20, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:22:30 IST" name="AuditHeadSummaryOpenAudits" finished-at="2025-07-03T10:23:43 IST" duration-ms="73362" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='ContentPlaceHolder1_lnkExportCustomerBranchlist']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 859ecf507b3c044a680c9e99b94e0018
+*** Element info: {Using=xpath, value=//a[@id='ContentPlaceHolder1_lnkExportCustomerBranchlist']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='ContentPlaceHolder1_lnkExportCustomerBranchlist']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 859ecf507b3c044a680c9e99b94e0018
+*** Element info: {Using=xpath, value=//a[@id='ContentPlaceHolder1_lnkExportCustomerBranchlist']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at aRSAuditHead.AuditHeadArsLocator.ExportToExcel(AuditHeadArsLocator.java:2591)
+at aRSAuditHead.AuditHeadMethodARS.AuditHeadSummaryOpenAudits(AuditHeadMethodARS.java:7473)
+at auditIFCTest.AuditHeadCriticalCases.AuditHeadSummaryOpenAudits(AuditHeadCriticalCases.java:338)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuditHeadSummaryOpenAudits -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:23:43 IST" name="browserClosing" finished-at="2025-07-03T10:23:49 IST" duration-ms="5701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:23:49 IST" name="Login" finished-at="2025-07-03T10:24:05 IST" duration-ms="16357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AuditHeadSummaryClosedAudits()[pri:21, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:24:05 IST" name="AuditHeadSummaryClosedAudits" finished-at="2025-07-03T10:24:49 IST" duration-ms="44384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuditHeadSummaryClosedAudits -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:24:49 IST" name="browserClosing" finished-at="2025-07-03T10:24:55 IST" duration-ms="5794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:24:55 IST" name="Login" finished-at="2025-07-03T10:25:10 IST" duration-ms="15213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Master1()[pri:22, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:25:10 IST" name="Master1" finished-at="2025-07-03T10:26:46 IST" duration-ms="95756" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=137.0.7151.104)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61182}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97300b0b3f19e1a0a7cc5636843e57c7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=137.0.7151.104)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61182}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97300b0b3f19e1a0a7cc5636843e57c7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at aRSAuditHead.AuditHeadMethodARS.Master(AuditHeadMethodARS.java:1911)
+at auditIFCTest.AuditHeadCriticalCases.Master1(AuditHeadCriticalCases.java:363)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Master1 -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:26:46 IST" name="browserClosing" finished-at="2025-07-03T10:26:52 IST" duration-ms="5729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:26:52 IST" name="Login" finished-at="2025-07-03T10:27:11 IST" duration-ms="18958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="DepartmentMaster1()[pri:23, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:27:11 IST" name="DepartmentMaster1" finished-at="2025-07-03T10:28:16 IST" duration-ms="65400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DepartmentMaster1 -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:28:16 IST" name="browserClosing" finished-at="2025-07-03T10:28:22 IST" duration-ms="5687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:28:22 IST" name="Login" finished-at="2025-07-03T10:28:38 IST" duration-ms="15982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="VerticalMaster11()[pri:24, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:28:38 IST" name="VerticalMaster11" finished-at="2025-07-03T10:30:34 IST" duration-ms="116401" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//li[.='Berger Paints']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61284}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5769b0914d62715fda2b5d3c4a3e048
+*** Element info: {Using=xpath, value=//li[.='Berger Paints']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[.='Berger Paints']"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61284}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5769b0914d62715fda2b5d3c4a3e048
+*** Element info: {Using=xpath, value=//li[.='Berger Paints']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at aRSAuditHead.AuditHeadArsLocator.SelectCompanyDDVM(AuditHeadArsLocator.java:670)
+at aRSAuditHead.AuditHeadMethodARS.VerticalMaster1(AuditHeadMethodARS.java:2396)
+at auditIFCTest.AuditHeadCriticalCases.VerticalMaster11(AuditHeadCriticalCases.java:387)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerticalMaster11 -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:30:34 IST" name="browserClosing" finished-at="2025-07-03T10:30:40 IST" duration-ms="5777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:30:40 IST" name="Login" finished-at="2025-07-03T10:30:58 IST" duration-ms="18189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="BusinessProcess1()[pri:25, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:30:58 IST" name="BusinessProcess1" finished-at="2025-07-03T10:34:27 IST" duration-ms="208612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusinessProcess1 -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:34:27 IST" name="browserClosing" finished-at="2025-07-03T10:34:33 IST" duration-ms="6536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:34:33 IST" name="Login" finished-at="2025-07-03T10:34:55 IST" duration-ms="21140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="ObservationCatogaries1()[pri:26, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:34:55 IST" name="ObservationCatogaries1" finished-at="2025-07-03T10:37:05 IST" duration-ms="130000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ObservationCatogaries1 -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:37:05 IST" name="browserClosing" finished-at="2025-07-03T10:37:10 IST" duration-ms="5641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:37:10 IST" name="Login" finished-at="2025-07-03T10:37:27 IST" duration-ms="16302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="RiskCategory1()[pri:27, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:37:27 IST" name="RiskCategory1" finished-at="2025-07-03T10:39:09 IST" duration-ms="102554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RiskCategory1 -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:39:09 IST" name="browserClosing" finished-at="2025-07-03T10:39:15 IST" duration-ms="5659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:39:15 IST" name="Login" finished-at="2025-07-03T10:39:31 IST" duration-ms="15749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Users1()[pri:28, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:39:31 IST" name="Users1" finished-at="2025-07-03T10:42:33 IST" duration-ms="182654" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=137.0.7151.104)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61497}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a71ab5d778c4ef51002d813cc2b86b19]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=137.0.7151.104)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61497}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a71ab5d778c4ef51002d813cc2b86b19
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at aRSAuditHead.AuditHeadMethodARS.Users(AuditHeadMethodARS.java:3137)
+at auditIFCTest.AuditHeadCriticalCases.Users1(AuditHeadCriticalCases.java:434)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Users1 -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:42:33 IST" name="browserClosing" finished-at="2025-07-03T10:42:39 IST" duration-ms="5690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:42:39 IST" name="Login" finished-at="2025-07-03T10:42:54 IST" duration-ms="14929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="UnitAssignment11()[pri:29, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:42:54 IST" name="UnitAssignment11" finished-at="2025-07-03T10:44:19 IST" duration-ms="85092" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div id="ContentPlaceHolder1_ddlProcessAuditHead_sl" class="form-control m-bot15 dd_chk_select" style="display:inline-block;position:relative;width:320px;">...</div> is not clickable at point (771, 188). Other element would receive the click: <div style="position: fixed; text-align: center; height: 100%; width: 100%; top: 0; right: 0; left: 0; z-index: 9999999; background-color: #000000; opacity: 0.3;">...</div>
+  (Session info: chrome=137.0.7151.104)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3828e3d656a00ee21bb01db4396da1f6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div id="ContentPlaceHolder1_ddlProcessAuditHead_sl" class="form-control m-bot15 dd_chk_select" style="display:inline-block;position:relative;width:320px;">...</div> is not clickable at point (771, 188). Other element would receive the click: <div style="position: fixed; text-align: center; height: 100%; width: 100%; top: 0; right: 0; left: 0; z-index: 9999999; background-color: #000000; opacity: 0.3;">...</div>
+  (Session info: chrome=137.0.7151.104)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3828e3d656a00ee21bb01db4396da1f6
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at aRSAuditHead.AuditHeadMethodARS.UnitAssignment1(AuditHeadMethodARS.java:3247)
+at auditIFCTest.AuditHeadCriticalCases.UnitAssignment11(AuditHeadCriticalCases.java:446)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnitAssignment11 -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:44:19 IST" name="browserClosing" finished-at="2025-07-03T10:44:25 IST" duration-ms="5638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:44:25 IST" name="Login" finished-at="2025-07-03T10:44:39 IST" duration-ms="13988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AuditorMaster11()[pri:30, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:44:39 IST" name="AuditorMaster11" finished-at="2025-07-03T10:47:04 IST" duration-ms="145860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuditorMaster11 -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:47:04 IST" name="browserClosing" finished-at="2025-07-03T10:47:10 IST" duration-ms="5653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:47:10 IST" name="Login" finished-at="2025-07-03T10:47:26 IST" duration-ms="15839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="AuditorsTeamMaster1()[pri:31, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:47:26 IST" name="AuditorsTeamMaster1" finished-at="2025-07-03T10:48:02 IST" duration-ms="35961" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61632}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 699214215684b2c58cca5c2ba0754032]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'TRPL-PUN-0106', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\ambujs\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61632}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 699214215684b2c58cca5c2ba0754032
+at jdk.internal.reflect.GeneratedConstructorAccessor55.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at aRSAuditHead.AuditHeadMethodARS.AuditorsTeamMaster(AuditHeadMethodARS.java:3572)
+at auditIFCTest.AuditHeadCriticalCases.AuditorsTeamMaster1(AuditHeadCriticalCases.java:470)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuditorsTeamMaster1 -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:48:02 IST" name="browserClosing" finished-at="2025-07-03T10:48:08 IST" duration-ms="5774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:48:08 IST" name="Login" finished-at="2025-07-03T10:48:27 IST" duration-ms="19008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="ProcessRatingMaster1()[pri:34, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:48:27 IST" name="ProcessRatingMaster1" finished-at="2025-07-03T10:50:16 IST" duration-ms="109757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcessRatingMaster1 -->
+        <test-method is-config="true" signature="browserClosing()[pri:0, instance:auditIFCTest.AuditHeadCriticalCases@f78a47e]" started-at="2025-07-03T10:50:16 IST" name="browserClosing" finished-at="2025-07-03T10:50:22 IST" duration-ms="6040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClosing -->
+      </class> <!-- auditIFCTest.AuditHeadCriticalCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

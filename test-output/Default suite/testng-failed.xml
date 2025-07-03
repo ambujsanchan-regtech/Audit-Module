@@ -3,12 +3,25 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="newauditproject.audittestcount">
+      <class name="auditIFCTest.AuditHeadCriticalCases">
         <methods>
-          <include name="observation"/>
-          <include name="Login1"/>
+          <include name="Login"/>
+          <include name="AgingGreaterthan1Year"/>
+          <include name="UnitAssignment11"/>
+          <include name="LowOpen"/>
+          <include name="VerticalMaster11"/>
+          <include name="AuditorsTeamMaster1"/>
+          <include name="CategoryClose"/>
+          <include name="ProcessHigh"/>
+          <include name="Users1"/>
+          <include name="CategoryOpen"/>
+          <include name="setBrowser"/>
+          <include name="Master1"/>
+          <include name="AuditHeadSummaryOpenAudits"/>
+          <include name="ProcessMedium"/>
+          <include name="browserClosing"/>
         </methods>
-      </class> <!-- newauditproject.audittestcount -->
+      </class> <!-- auditIFCTest.AuditHeadCriticalCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
